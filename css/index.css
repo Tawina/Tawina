@@ -1,0 +1,88 @@
+body{
+
+        margin: 0;
+        padding: 0;
+        font-family: roboto;
+}
+#nav li a b:hover  {
+	color: #afd473;
+  background: red;
+   width: 120px;
+  padding: 2px;
+
+}
+
+.relative {
+  position: relative;
+  width: 50px;
+  height: 50px;
+} 
+
+.abso {
+  position: absolute;
+    top: 25px;
+    margin-left: 30px;
+ 
+}.absolute {
+  position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.nav-item{
+    margin-right: 120px;
+}
+
+.bgImageOne{
+	background-image: url("../image/fruitone.jpeg");
+	/*width: 100%;*/
+	height: 900px;
+	position: relative;
+}
+
+.heading {
+	position: absolute;
+    top: 20%;
+    margin-left: 10%;
+    color: #ffffff;
+
+}
+
+.heading h1{
+	font-size: 80px;
+}
+
+.heading button{
+	color: #ffffff;
+	background: red;
+	/*opacity: 0.5;*/
+	border: 5px; 
+	border-radius: 50px;
+	width: 40%; 
+}
+.welcome{
+	text-align: center;
+}
+.aboutfarm{
+	text-align: center;
+}
+
+.secondImage{
+	background-image: url("../image/fruittwoo.jpg");
+	height: 400px;
+  	position: relative;
+
+}
+.title{
+	position: absolute;
+	/*position: fixed;*/
+    top: 72%;
+    /*background-color: red;*/
+    /*opacity: 0.5;*/
+    /*margin-left: 2%;*/
+    color: black;
+    width: 91%;
+}
+
+
+
